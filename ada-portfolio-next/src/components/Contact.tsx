@@ -52,7 +52,7 @@ export function Contact() {
               <div>
                 <div className="flex items-center gap-3">
                   <span className="eyebrow text-xs font-semibold text-emerald-500">
-                    09
+                    08
                   </span>
                   <span className="h-px w-8 bg-emerald-500/40" />
                   <span className="eyebrow text-xs font-semibold uppercase text-[var(--ink-soft)]">
