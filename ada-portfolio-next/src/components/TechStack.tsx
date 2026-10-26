@@ -13,6 +13,12 @@ import {
   Trello,
   MessagesSquare,
   Hash,
+  Code2,
+  Database,
+  GitBranch,
+  Terminal,
+  Cloud,
+  Braces,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -26,6 +32,14 @@ const iconMap: Record<string, React.ElementType> = {
   Trello: Trello,
   Slack: MessagesSquare,
   Discord: Hash,
+  "Next.js": Code2,
+  React: Braces,
+  TypeScript: Braces,
+  "Node.js": Terminal,
+  PostgreSQL: Database,
+  "Prisma ORM": Database,
+  "Git & GitHub": GitBranch,
+  Vercel: Cloud,
 };
 
 export function TechStack() {
@@ -34,7 +48,7 @@ export function TechStack() {
       <div className="mx-auto max-w-6xl px-5">
         <Reveal className="text-center">
           <span className="eyebrow text-xs font-semibold uppercase text-[var(--ink-soft)]">
-            Tools I work in every day
+            Tools & Technologies
           </span>
         </Reveal>
 
