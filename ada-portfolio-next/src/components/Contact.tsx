@@ -5,7 +5,6 @@ import { Reveal } from "./Motion";
 import { profile } from "jannah/lib/data";
 import {
   Mail,
-  Phone,
   Linkedin,
   Github,
   MapPin,
@@ -23,13 +22,13 @@ const channels = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "Connect with me",
+    value: "Add professional profile",
     href: profile.linkedin,
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "View profile",
+    value: "View code and projects",
     href: profile.github,
   },
   {
@@ -60,21 +59,21 @@ export function Contact() {
                   </span>
                 </div>
                 <h2 className="mt-4 font-display text-3xl font-semibold leading-tight tracking-tight text-[var(--ink)] sm:text-4xl">
-                  Let&apos;s keep your work organized.
+                  Let&apos;s talk about an OJT opportunity.
                 </h2>
                 <p className="mt-4 max-w-md text-base leading-relaxed text-[var(--ink-soft)]">
-                  Looking for dependable administrative or virtual assistance?
-                  I&apos;d love to hear what you need. The fastest way to reach
-                  me is email.
+                  I&apos;m looking forward to learning from an experienced team
+                  and contributing to meaningful IT work. Please reach out to
+                  discuss internship opportunities or view my resume and code.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-3">
                   <a
-                    href={`mailto:${profile.email}`}
+                    href={`mailto:${profile.email}?subject=IT%20OJT%20Opportunity`}
                     className="inline-flex items-center gap-2 rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:shadow-lift dark:bg-emerald-500 dark:hover:bg-emerald-600"
                   >
                     <Mail className="h-4 w-4" />
-                    Email Me
+                    Email About OJT
                   </a>
                   <a
                     href={profile.resume}
