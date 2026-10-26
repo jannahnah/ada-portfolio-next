@@ -18,7 +18,7 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-3 max-w-sm font-display text-lg italic text-[var(--ink-soft)]">
-              &ldquo;Helping businesses stay organized, one task at a time.&rdquo;
+              &ldquo;Learning by building, improving, and showing up.&rdquo;
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export function Footer() {
             © {new Date().getFullYear()} Jannah Loraine L. Ada. All rights
             reserved.
           </p>
-          <p>Executive Assistant · Virtual Assistant · Butuan City, PH</p>
+          <p>BSIT Student · Aspiring IT Intern · Butuan City, PH</p>
         </div>
       </div>
     </footer>
