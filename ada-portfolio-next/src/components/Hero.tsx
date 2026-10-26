@@ -9,10 +9,10 @@ import { Counter } from "./Counter";
 const ease = [0.22, 1, 0.36, 1] as const;
 
 const floatCards = [
-  { label: "Calendar Management", top: "6%", left: "-6%", delay: 0 },
-  { label: "Email Management", top: "30%", right: "-10%", delay: 0.6 },
-  { label: "Documentation", bottom: "20%", left: "-9%", delay: 1.1 },
-  { label: "Data Entry", bottom: "-2%", right: "4%", delay: 0.3 },
+  { label: "Full-Stack Capstone", top: "6%", left: "-6%", delay: 0 },
+  { label: "Database Design", top: "30%", right: "-10%", delay: 0.6 },
+  { label: "System Documentation", bottom: "20%", left: "-9%", delay: 1.1 },
+  { label: "Web Development", bottom: "-2%", right: "4%", delay: 0.3 },
 ];
 
 export function Hero() {
@@ -39,7 +39,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-60" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
             </span>
-            Available for remote &amp; on-site roles
+            Seeking an IT OJT opportunity
           </motion.div>
 
           <motion.h1
@@ -75,13 +75,20 @@ export function Hero() {
             transition={{ duration: 0.7, ease, delay: 0.32 }}
             className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center"
           >
-           <a 
+            <a
               href={profile.resume}
               download
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-navy px-5 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:shadow-lift dark:bg-emerald-500 dark:hover:bg-emerald-600"
             >
               <Download className="h-4 w-4" />
               Download Resume
+            </a>
+            <a
+              href="#projects"
+              className="group inline-flex items-center justify-center gap-2 rounded-full border border-[var(--line)] bg-[var(--surface)] px-5 py-3 text-sm font-semibold text-[var(--ink)] shadow-soft transition hover:-translate-y-0.5 hover:shadow-lift"
+            >
+              View Projects
+              <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </a>
             <a
               href="#contact"
@@ -133,7 +140,7 @@ export function Hero() {
             />
             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/20 to-transparent" />
             <div className="absolute bottom-4 left-4 rounded-xl glass px-3 py-2 text-xs font-semibold text-[var(--ink)] shadow-soft">
-              Executive Assistant
+              BSIT · Expected 2027
             </div>
           </div>
 
@@ -183,24 +190,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  );
-}
-
-function PortraitPlaceholder() {
-  return (
-    <div className="absolute inset-0 grid place-items-center">
-      <svg
-        viewBox="0 0 200 250"
-        className="h-full w-full text-navy/15 dark:text-emerald-500/15"
-        aria-hidden="true"
-      >
-        <rect width="200" height="250" fill="currentColor" opacity="0.18" />
-        <circle cx="100" cy="92" r="42" fill="currentColor" />
-        <path d="M28 250c0-44 32-74 72-74s72 30 72 74" fill="currentColor" />
-      </svg>
-      <span className="absolute bottom-16 text-center text-xs font-medium text-[var(--ink-soft)]">
-        Add portrait.jpg to /public
-      </span>
-    </div>
   );
 }

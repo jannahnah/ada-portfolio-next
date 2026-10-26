@@ -11,13 +11,13 @@ export function Services() {
       <div className="mx-auto max-w-6xl px-5">
         <SectionHeading
           index="02"
-          eyebrow="Core Services"
-          title="What I take off your plate."
-          intro="A focused set of services built around keeping people, documents, and schedules in order."
+          eyebrow="Areas of Interest"
+          title="Where I hope to contribute."
+          intro="A mix of technical interests and professional strengths I can bring to an IT internship while continuing to learn."
           align="center"
         />
 
-        <StaggerGroup className=" mt-10 grid sm:mt-14 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <StaggerGroup className="mt-10 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
             <StaggerItem key={s.title}>
               <motion.article

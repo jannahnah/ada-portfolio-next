@@ -7,7 +7,7 @@ import { Check } from "lucide-react";
 
 export function WhyHireMe() {
   return (
-    <section className="relative overflow-hidden bg-navy py-16 sm:py-24 text-white dark:bg-navy-900">
+    <section className="relative overflow-hidden bg-navy py-16 text-white dark:bg-navy-900 sm:py-24">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -right-20 top-0 h-72 w-72 rounded-full bg-emerald-500/20 blur-3xl" />
         <div className="absolute -left-20 bottom-0 h-72 w-72 rounded-full bg-emerald-400/10 blur-3xl" />
@@ -21,15 +21,15 @@ export function WhyHireMe() {
             </span>
             <span className="h-px w-8 bg-emerald-400/50" />
             <span className="eyebrow text-xs font-semibold uppercase text-white/60">
-              Why Hire Me
+              What I Bring
             </span>
           </div>
           <h2 className="mt-4 font-display text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
-            The qualities behind reliable support.
+            Ready to learn, contribute, and grow.
           </h2>
           <p className="mt-4 text-base leading-relaxed text-white/70">
-            These aren&apos;t buzzwords — they&apos;re how I show up to the work
-            every day.
+            I bring a practical project mindset, dependable work habits, and a
+            willingness to learn from experienced teammates during OJT.
           </p>
         </div>
 

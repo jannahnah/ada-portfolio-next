@@ -16,40 +16,44 @@ const fraunces = Fraunces({
   axes: ["opsz"],
 });
 
-const siteUrl = "https://ada-portfolio-tau.vercel.app";
+const siteUrl = "https://ada-portfolio-next.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Jannah Loraine L. Ada — Executive & Virtual Assistant",
+    default: "Jannah Loraine L. Ada — BSIT Student & IT Intern",
     template: "%s · Jannah Loraine L. Ada",
   },
   description:
-    "Executive Assistant and Virtual Assistant helping executives, teams, and organizations stay organized through reliable administrative support, scheduling, documentation, and workflow management.",
+    "Portfolio of Jannah Loraine L. Ada, a BSIT student seeking an IT OJT opportunity. Explore web development projects, technical skills, and professional experience.",
   keywords: [
-    "Executive Assistant",
-    "Virtual Assistant",
-    "Administrative Support",
-    "Calendar Management",
-    "Email Management",
-    "Remote Assistant",
+    "BSIT Student",
+    "IT OJT",
+    "IT Intern",
+    "Web Development",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
     "Jannah Loraine Ada",
+    "Butuan City",
   ],
   authors: [{ name: "Jannah Loraine L. Ada" }],
   creator: "Jannah Loraine L. Ada",
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "Jannah Loraine L. Ada — Executive & Virtual Assistant",
+    title: "Jannah Loraine L. Ada — BSIT Student & IT Intern",
     description:
-      "Reliable administrative support, scheduling, documentation, and workflow management for executives and teams.",
+      "BSIT student portfolio showcasing web development projects, capstone work, technical skills, and experience.",
     siteName: "Jannah Loraine L. Ada",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jannah Loraine L. Ada — Executive & Virtual Assistant",
+    title: "Jannah Loraine L. Ada — BSIT Student & IT Intern",
     description:
-      "Reliable administrative support, scheduling, documentation, and workflow management.",
+      "Web development projects, technical skills, and practical experience from a BSIT student seeking OJT.",
   },
   robots: { index: true, follow: true },
 };
@@ -70,7 +74,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Jannah Loraine L. Ada",
-    jobTitle: "Executive Assistant / Virtual Assistant",
+    jobTitle: "BSIT Student / Aspiring IT Intern",
     email: "mailto:jannahsnow13@gmail.com",
     url: siteUrl,
     address: {
@@ -79,12 +83,15 @@ export default function RootLayout({
       addressCountry: "PH",
     },
     knowsAbout: [
+      "Web Development",
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "System Documentation",
       "Administrative Support",
-      "Calendar Management",
-      "Email Management",
-      "Documentation",
-      "Microsoft Office",
-      "Google Workspace",
     ],
   };
 

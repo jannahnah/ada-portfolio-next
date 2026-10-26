@@ -11,11 +11,11 @@ export function Certifications() {
       <div className="mx-auto max-w-6xl px-5">
         <SectionHeading
           index="05"
-          eyebrow="Certifications & Training"
-          title="Always building the craft."
+          eyebrow="Training & Development"
+          title="Learning beyond the classroom."
         />
 
-        <StaggerGroup className=" mt-10 grid sm:mt-14 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <StaggerGroup className="mt-10 grid gap-5 sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
           {certifications.map((c) => (
             <StaggerItem key={c.title}>
               <article className="group relative h-full overflow-hidden rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-soft transition hover:shadow-lift">
